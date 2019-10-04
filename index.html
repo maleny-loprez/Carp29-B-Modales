@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Modal/Ventana Emergente</title>
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body>
+	<br>
+	<div class="container">
+		<br>
+		<a href="#ventana1" class="btn btn-primary btn-lg" data-toggle="modal">Boton #1</a>
+		<a href="#ventana2" class="btn btn-success btn-lg" data-toggle="modal">Boton #2</a>
+		
+		<div class="modal fade" id="ventana1">
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<!-- Header de la ventana. -->
+					<div class="modal-header">
+						<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+						<h4 class="modal-title">Encabezado de nuestra ventana #1</h4>
+					</div>
+
+					<!-- Contenido de la ventana -->
+					<div class="modal-body">
+						<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis explicabo praesentium possimus, magni ducimus totam aut, at expedita ad sit necessitatibus esse ipsa deleniti sint molestiae fugit nemo doloribus voluptas.Molestiae, aliquam exercitationem. Eos labore blanditiis, reprehenderit deleniti, porro illo iure corporis optio dolores commodi consequatur expedita consectetur nihil ad ipsam aperiam eius dicta eveniet? Earum vero placeat eveniet illum?</p>
+					</div>
+
+					<!-- Footer de la ventana -->
+					<div class="modal-footer">
+						<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+						<button type="button" class="btn btn-primary" >Guardar Cambio</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="modal fade" id="ventana2">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<!-- Header de la ventana. -->
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+							<h4 class="modal-title">Encabezado de nuestra ventana #2</h4>
+						</div>
+	
+						<!-- Contenido de la ventana -->
+						<div class="modal-body">
+							<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veritatis explicabo praesentium possimus, magni ducimus.</p>
+						</div>
+	
+						<!-- Footer de la ventana -->
+						<div class="modal-footer">
+							<button type="button" class="btn btn-default" data-dismiss="modal">Cerrar</button>
+							<button type="button" class="btn btn-primary" >Guardar Cambio</button>
+						</div>
+					</div>
+				</div>
+			</div>
+	</div>
+	
+	
+
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
